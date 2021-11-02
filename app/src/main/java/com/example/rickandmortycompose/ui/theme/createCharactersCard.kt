@@ -48,6 +48,10 @@ fun CreateCharactersCard(
                     modifier = Modifier.padding(8.dp)
                 )
                 Text(
+                    text = "Episode - ${result.episode}",
+                    modifier = Modifier.padding(8.dp)
+                )
+                Text(
                     text = "Species - ${result.species}",
                     modifier = Modifier.padding(8.dp)
                 )
