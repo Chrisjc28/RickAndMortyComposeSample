@@ -48,7 +48,7 @@ fun CreateCharactersCard(
                     modifier = Modifier.padding(8.dp)
                 )
                 Text(
-                    text = "Episode - ${result.episode}",
+                    text = "Id - ${result.id}",
                     modifier = Modifier.padding(8.dp)
                 )
                 Text(
